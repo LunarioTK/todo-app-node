@@ -1,0 +1,19 @@
+<html>
+    <head> 
+        <title> ToDo App </title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100">
+        <link rel="stylesheet" href="/styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2> A simple ToDo List App </h2>
+            <form action="/addtask" method="post">
+                <input type="text" name="newtask" placeholder="add new task">
+                <button> Add Task </button>
+                <h2> Added Task </h2>
+                <button formaction="/removetask" type="submit"> Remove </button>
+            </form>
+            <h2> Completed task</h2>
+        </div>
+    </body>
+</html>
